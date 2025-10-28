@@ -1,7 +1,10 @@
 import React from "react";
 import everfirstLogo from "/Everfirst.png"; // adjust as needed
+import { useNavigate } from "react-router-dom";
 
 const Header = () => {
+  const navigate = useNavigate();
+
   return (
     <header className="fixed top-4 left-1/2 transform -translate-x-1/2 w-[90%] max-w-6xl bg-[#f3eded] shadow-lg rounded-2xl px-6 py-3 flex items-center justify-between z-20 border border-gray-200">
       {/* Logo */}
