@@ -25,12 +25,18 @@ const Header = () => {
           </a>
         </li>
         <li>
-          <a href="/info" className="hover:text-blue-600 transition">
+          <a
+            onClick={() => navigate("/info")}
+            className="hover:text-blue-600 transition"
+          >
             Information
           </a>
         </li>
         <li>
-          <a href="/contact" className="hover:text-blue-600 transition">
+          <a
+            onClick={() => navigate("/contact")}
+            className="hover:text-blue-600 transition"
+          >
             Contact
           </a>
         </li>
