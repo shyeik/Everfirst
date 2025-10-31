@@ -7,9 +7,9 @@ const BranchTeam = () => {
     { name: "Jake Derilo", role: "Loan Processor", gender: "male" },
 
     { name: "John Lopez", role: "Rider", gender: "male" },
-    { name: "Rose Alvarez", role: "Loan Processor", gender: "female" },
+    { name: "Rose Alvarez", role: "Loan Consultant", gender: "female" },
     { name: "Miracle Helbolario", role: "Branch Head", gender: "female" },
-    { name: "Mariel Pedlino", role: "Loan Consultant", gender: "female" },
+    { name: "Mariel Pedlino", role: "Loan Processor", gender: "female" },
   ];
 
   return (
