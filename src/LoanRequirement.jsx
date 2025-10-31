@@ -1,6 +1,9 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const LoanRequirement = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="min-h-screen bg-gray-50 mt-10 text-gray-800 p-6 md:p-12">
       <div className="max-w-3xl mx-auto bg-white rounded-2xl shadow-lg overflow-hidden">
@@ -39,6 +42,12 @@ const LoanRequirement = () => {
               Need help completing your requirements? Visit any Everfirst branch
               or contact our support.
             </div>
+            <button
+              onClick={() => navigate("/computation")}
+              className="px-6 py-3 bg-blue-600 text-white rounded-xl hover:bg-yellow-200  hover:text-red-600 hover:font-bold transition"
+            >
+              Compute Your Loan Now!
+            </button>
           </section>
         </main>
       </div>

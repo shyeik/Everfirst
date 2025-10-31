@@ -2,16 +2,18 @@ import React from "react";
 import everfirstLogo from "/Everfirst.png";
 import everfam from "/Fams.png";
 import { useNavigate } from "react-router-dom";
+import Information from "./Information";
+import ContactPage from "./ContactPage";
 
 export default function App() {
   const navigate = useNavigate();
   return (
-    <div className="min-h-screen bg-gray-50 text-gray-800">
+    <div className="min-h-screen bg-white text-gray-800">
       {/* HEADER / NAVBAR */}
 
       <section
         id="home"
-        className="flex flex-col md:flex-row items-center justify-between px-10 md:px-20 py-20 mt-10 from-blue-50 to-white"
+        className="flex flex-col md:flex-row items-center justify-between px-2 md:px-20 py-20 mt-10 from-blue-50 to-white"
       >
         {/* LEFT SIDE - TEXT */}
         <div className="md:w-1/2 text-center md:text-left space-y-4">
@@ -24,9 +26,13 @@ export default function App() {
               SSS and GSIS loan assistance
             </span>{" "}
             for members and pensioners. Whether you need a 13th month loan or a
-            pension loan — we make it simple, fast, and worry-free. Our friendly
-            staff will guide you every step of the way to ensure a smooth
-            application process.
+            pension loan — we make it simple, fast, and worry-free. <br />
+            <span className="font-semibold text-red-700">
+              Need mo ba pambayad sa bills, pampuhunan, o panggastos? Dito ka na
+              sa Everfirst!
+            </span>{" "}
+            Our friendly staff will guide you every step of the way to ensure a
+            smooth application process.
           </p>
           <button
             onClick={() => navigate("/requirements")}
@@ -45,6 +51,9 @@ export default function App() {
           />
         </div>
       </section>
+
+      <Information />
+      <ContactPage />
 
       {/* FOOTER */}
       <footer className="py-6 text-center bg-white border-t text-gray-500">
