@@ -26,8 +26,8 @@ const BranchTeam = () => {
             Our team is here to make your loan experience smooth and worry-free.{" "}
             <br />
             <span className="font-semibold text-gray-700">
-              With 16 years of experience, we serve every client with care and
-              trust.
+              Sa higit 18 taon na karanasan ng aming staff, maaasahan mong bawat
+              kliyente ay pinaglilingkuran namin nang may malasakit at tiwala.
             </span>
           </p>
 

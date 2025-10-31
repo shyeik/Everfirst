@@ -16,29 +16,42 @@ export default function App() {
         className="flex flex-col md:flex-row items-center justify-between px-2 md:px-20 py-20 mt-10 from-blue-50 to-white"
       >
         {/* LEFT SIDE - TEXT */}
-        <div className="md:w-1/2 text-center md:text-left space-y-4">
-          <h1 className="text-3xl md:text-4xl text-red-600 font-semibold">
+        <div className="md:w-1/2 text-center md:text-left space-y-6">
+          <h1 className="text-4xl md:text-5xl text-red-600 font-extrabold tracking-tight">
             Everfirst Cubao Branch
           </h1>
-          <p className="text-gray-600 text-lg max-w-md mx-auto md:mx-0 leading-relaxed">
+
+          <p className="text-gray-700 text-xl leading-relaxed max-w-md mx-auto md:mx-0">
             Everfirst offers{" "}
             <span className="font-semibold text-blue-700">
-              SSS and GSIS loan assistance
+              SSS and GSIS Loan Assistance
             </span>{" "}
-            for members and pensioners. Whether you need a 13th month loan or a
-            pension loan — we make it simple, fast, and worry-free. <br />
-            <span className="font-semibold text-red-700">
-              Need mo ba pambayad sa bills, pampuhunan, o panggastos? Dito ka na
-              sa Everfirst!
-            </span>{" "}
-            Our friendly staff will guide you every step of the way to ensure a
-            smooth application process.
+            for members and pensioners. We make every process simple, fast, and
+            worry-free.
           </p>
+
+          <p className="text-lg text-gray-800 font-medium leading-relaxed">
+            <span className="text-red-700 font-bold block text-xl mb-2">
+              Need mo ba pambayad sa bills, pampuhunan, o panggastos?
+            </span>
+            Dito ka na sa{" "}
+            <span className="font-semibold text-blue-700">Everfirst!</span> Our
+            friendly staff will guide you every step of the way.
+          </p>
+
+          <p className="text-gray-600 text-base italic">
+            The Cubao Branch is one of{" "}
+            <span className="font-semibold text-gray-800">
+              127 Everfirst branches
+            </span>{" "}
+            proudly serving clients accross Luzon.
+          </p>
+
           <button
             onClick={() => navigate("/requirements")}
-            className="mt-4 px-6 py-3 bg-blue-600 text-white rounded-xl hover:bg-red-700 transition"
+            className="mt-6 px-8 py-4 bg-linear-to-r from-red-600 to-red-500 text-white text-lg rounded-2xl shadow hover:shadow-lg hover:from-red-700 hover:to-red-600 transition"
           >
-            Requirements
+            View Requirements
           </button>
         </div>
 
