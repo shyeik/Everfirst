@@ -91,7 +91,7 @@ const LoanInfo = () => {
         {/* TYPES OF LOANS */}
         <section>
           <h2 className="text-3xl font-bold text-red-600 mb-6 text-center">
-            Mga Uri ng Loan na Inaalok ng Everfirst
+            Mga Uri ng Pension na Inaalok ng Everfirst
           </h2>
           <div className="grid md:grid-cols-2 gap-6">
             {loanTypes.map((loan, i) => (

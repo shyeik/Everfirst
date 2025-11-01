@@ -27,7 +27,7 @@ const LoanComputation = () => {
       return;
     }
 
-    const principalLoan = monthlyLoan * loanTerm;
+    const principalLoan = monthlyKaltas * loanTerm;
     const interest = loanTerm * 0.02 * principalLoan;
     const serviceFee = 60 * loanTerm;
     const docstamp = principalLoan * 0.0075;
@@ -78,8 +78,8 @@ const LoanComputation = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
             {/* MONTHLY LOAN */}
             <div>
-              <label className="block text-gray-700 font-medium mb-1 flex items-center gap-1">
-                Monthly Loan
+              <label className="block text-gray-700 font-medium mb-1 items-center gap-1">
+                Monthly Pension
                 <HelpCircle
                   size={18}
                   className="text-blue-600 cursor-pointer"
@@ -112,7 +112,7 @@ const LoanComputation = () => {
 
             {/* MONTHLY DUE */}
             <div>
-              <label className="block text-gray-700 font-medium mb-1 flex items-center gap-1">
+              <label className="block text-gray-700 font-medium mb-1 items-center gap-1">
                 Monthly Due
                 <HelpCircle
                   size={18}
