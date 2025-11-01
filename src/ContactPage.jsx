@@ -25,7 +25,10 @@ const ContactPage = () => {
             <ul className="space-y-3 text-gray-700">
               <li className="flex items-center gap-2">
                 <MapPin className="w-5 h-5 text-red-500" />
-                <span>2nd Floor, Ever Gotesco Mall, Cubao, Quezon City</span>
+                <span>
+                  Room 3, 2nd flor Commercial Space Bldg. 600 EDSA ave., Brgy.
+                  Socorro Cubao, Quezon City, Philippines
+                </span>
               </li>
               <li className="flex items-center gap-2">
                 <Clock className="w-5 h-5 text-yellow-500" />

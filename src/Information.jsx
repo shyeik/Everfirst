@@ -5,7 +5,6 @@ import teamPhoto from "/fam4.png"; // 🖼️ replace with your actual image pat
 const BranchTeam = () => {
   const team = [
     { name: "Jake Derilo", role: "Loan Processor", gender: "male" },
-
     { name: "John Lopez", role: "Rider", gender: "male" },
     { name: "Rose Alvarez", role: "Loan Consultant", gender: "female" },
     { name: "Miracle Helbolario", role: "Branch Head", gender: "female" },
