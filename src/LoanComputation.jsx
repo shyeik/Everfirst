@@ -56,7 +56,7 @@ const LoanComputation = () => {
       "Ito ang bilang ng buwan na babayaran mo ang loan. Halimbawa, 24 months (2 taon).",
     age: "Ito ang edad ng aplikante. Dapat pasok at hindi hihigit sa 80 years old.",
     sukli:
-      "Kung ang sukli mo ay mas mababa sa ₱100, hindi pa ito maaaring kunin. Makukuha mo lang ito kapag umabot o lumagpas na sa ₱100 at buo ang halaga (walang butal).",
+      "Kapag ang sukli mo ay mas mababa sa ₱100, hindi pa ito maaaring kunin. Makukuha mo lang ito kapag umabot o lumagpas na sa ₱100 nang walang butal.",
   };
 
   return (
@@ -78,7 +78,7 @@ const LoanComputation = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
             {/* MONTHLY LOAN */}
             <div>
-              <label className="block text-gray-700 font-medium mb-1 items-center gap-1">
+              <label className="block text-gray-700 font-medium mb-1 flex items-center gap-1">
                 Monthly Pension
                 <HelpCircle
                   size={18}
@@ -112,7 +112,7 @@ const LoanComputation = () => {
 
             {/* MONTHLY DUE */}
             <div>
-              <label className="block text-gray-700 font-medium mb-1 items-center gap-1">
+              <label className="block text-gray-700 font-medium mb-1 flex items-center gap-1">
                 Monthly Due
                 <HelpCircle
                   size={18}
